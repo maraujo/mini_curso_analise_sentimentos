@@ -409,7 +409,7 @@ Apesar do uso penetrante em contexto de medias sociais, estes lexicos são norma
 No entanto, como algumas pesquisas apontam, apesar da grande abrangencia para acessar o sentimento em midias sociais, LIWC não inclue em consideração items léxicos que carregam sentimentos como acronimos, inicialismos, emoções ou girias, que são conhecidos como sendo importante para analise de textos sociais. (Vader_)
 
 
-O LIWC é incapaz de levar em conta diferençá de intensidade de sentimentos das palavras. Por exemplo, "A comida aqui é excepcional", é sabidamente mais positivo do que a intensidade de "A comida aqui é OK". As ferramenta de analise de sentimentos que utilizam o LIWC iria dar o valor igualmente(já que ambos contem termos positivos). Estas distinções são intuitivamente valiosas para uma fina análise de sentimentos. (Vader_)
+O LIWC é incapaz de levar em conta diferençá de intensidade de sentimentos das palavras. Por exemplo, "A comida aqui é excepcional", é sabidamente mais positivo do que a intensidade de "A comida aqui é OK". As ferramenta de analise de sentimentos que utilizam o LIWC iria dar o valor igualmente(já que ambos contem termos positivos). Estas distinções são intuitivamente valiosas para uma fina análise de sentimentos. (Vader_) 
 
 Copyright
 """""""""
@@ -1207,8 +1207,7 @@ General References BibTex:
   author={Cambria, Erik and Hussain, Amir},
   volume={2},
   year={2012},
-  publisher={Springer Science \& Business Media}
-}
+  publisher={Springer Science \& Business Media}}
 
 .. _Vader: 
 
@@ -1220,8 +1219,7 @@ General References BibTex:
 	keywords = {Sentiment Analysis; Social Media; Validated Sentiment Lexicon; Human Centered Computing},
 	abstract = {The inherent nature of social media content poses serious challenges to practical applications of sentiment analysis. We present VADER, a simple rule-based model for general sentiment analysis, and compare its effectiveness to eleven typical state-of-practice benchmarks including LIWC, ANEW, the General Inquirer, SentiWordNet, and machine learning oriented techniques relying on Naive Bayes, Maximum Entropy, and Support Vector Machine (SVM) algorithms. Using a combination of qualitative and quantitative methods, we first construct and empirically validate a gold-standard list of lexical features (along with their associated sentiment intensity measures) which are specifically attuned to sentiment in microblog-like contexts. We then combine these lexical features with consideration for five general rules that embody grammatical and syntactical conventions for expressing and emphasizing sentiment intensity. Interestingly, using our parsimonious rule-based model to assess the sentiment of tweets, we find that VADER outperforms individual human raters (F1 Classification Accuracy = 0.96 and 0.84, respectively), and generalizes more favorably across contexts than any of our benchmarks.},
 
-	url = {https://aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/view/8109/8122}
-}
+	url = {https://aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/view/8109/8122}}
 
 .. _NRCcanada:
 
@@ -1234,8 +1232,7 @@ General References BibTex:
   address   = {Dublin, Ireland},
   publisher = {Association for Computational Linguistics and Dublin City University},
   pages     = {437--442},
-  url       = {http://www.aclweb.org/anthology/S14-2076}
-}
+  url       = {http://www.aclweb.org/anthology/S14-2076}}
 
 .. _Sentiwordnet:
 
@@ -1244,8 +1241,7 @@ General References BibTex:
     title = {SENTIWORDNET: A Publicly Available Lexical Resource for Opinion Mining},
     booktitle = {In Proceedings of the 5th Conference on Language Resources and Evaluation (LREC’06},
     year = {2006},
-    pages = {417--422}
-}
+    pages = {417--422}}
 
 .. _Senticnet:
 
@@ -1257,5 +1253,4 @@ General References BibTex:
 	keywords = {AI; Semantic Web, Opinion Mining},
 	abstract = {Today millions of web-users express their opinions about many topics through blogs, wikis, fora, chats and social networks. For sectors such as e-commerce and e-tourism, it is very useful to automatically analyze the huge amount of social information available on the Web, but the extremely unstructured nature of these contents makes it a difficult task.  SenticNet is a publicly available resource for opinion mining built exploiting AI and Semantic Web techniques. It uses dimensionality reduction to infer the polarity of common sense concepts and hence provide a public resource for mining opinions from natural language text at a semantic, rather than just syntactic, level.},
 
-	url = {https://www.aaai.org/ocs/index.php/FSS/FSS10/paper/view/2216}
-}
+	url = {https://www.aaai.org/ocs/index.php/FSS/FSS10/paper/view/2216}}
