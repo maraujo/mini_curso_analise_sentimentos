@@ -347,7 +347,7 @@ Metodologia
 
 O desenvolvido do SenticNet doi inspirado pelo SentiWordNet, um recurso lexico que para cada snset do WordNet associal a tres valores numericos distribuidos em o quao objetivo, positivo ou negativo os termos do synset são. Em cada uma das tres categorias abrangendo de 0 a 1 em que a soma de todas desse 1. Isto significa que um synset não possui valor 0 para todos as tres categorias, de tal forma indica que cada termo do synset possui em certo grau opnião relacionada a propriedade de cada categoria. (Senticcomputing_)
 
-O método utilizado para desenvolver o SentiWordNet é baseado na analise quantitativa das "interpretações" associadaes para os synsets e na utilização resultante de representações vetoriais para classificação semi-supervisionado dos synset. Os tres valores são derivados da cominação de diferentes resultados  obtidos pelo comite de 8 classificadores ternarios, todos os classificadores com niveis de acuracia similar mas com metodos de classificação diferentes. O SentiWordNet atualmente representa um bom recurso para mineracao de opnião, no entanto, ele contem muito ruido e praticamente prove polaridade em apenas nivel sintatico, deixado de lado a informação de conhecimento do senso comum, conceitos, como "mal precentimento", "estar nas nuvens", "celebrar ocasiao especial", conceitos os quais são normalmente encontrados na linguagem natural nos textos para expressar pontos de vistas positivos e negativos. E foi para esse fim que o SenticNet foi desenvolvido. (Senticomputing_)
+O método utilizado para desenvolver o SentiWordNet é baseado na analise quantitativa das "interpretações" associadaes para os synsets e na utilização resultante de representações vetoriais para classificação semi-supervisionado dos synset. Os tres valores são derivados da cominação de diferentes resultados  obtidos pelo comite de 8 classificadores ternarios, todos os classificadores com niveis de acuracia similar mas com metodos de classificação diferentes. O SentiWordNet atualmente representa um bom recurso para mineracao de opnião, no entanto, ele contem muito ruido e praticamente prove polaridade em apenas nivel sintatico, deixado de lado a informação de conhecimento do senso comum, conceitos, como "mal precentimento", "estar nas nuvens", "celebrar ocasiao especial", conceitos os quais são normalmente encontrados na linguagem natural nos textos para expressar pontos de vistas positivos e negativos. E foi para esse fim que o SenticNet foi desenvolvido. (Senticcomputing_)
 
 
 Senticnet vs SentiWordNet
@@ -998,7 +998,7 @@ be employed in nearly any domain, as it does not rely on domain-dependent keywor
 .. sponding sentic level ‘rage’) and a negative polarity,
 
 Social Media Marketing
-----------------------
+**********************
 
 The advent of Web 2.0 made users more enthusiastic about interacting, sharing, and collaborating through social networks, online communities, blogs, wikis, and other online collaborative media. In the last years, this collective intelligence has spread to many different areas in the Web, with particular focus on fields related to our everyday life such as commerce, tourism, education, and health. The online review of commercial services and products, in particular, is an action that users usually perform with pleasure, to share their opinions about services they have received or products they have just bought, and it constitutes immeasurable value for other potential buyers. 
 
@@ -1033,7 +1033,7 @@ Since no mood-labelled dataset about commercial products is currently available,
 data for a total of 5,000 posts, the sentics extraction process was conducted on each of these and outputs were compared with the relative LiveJournal mood tags, in order to compute recall and precision rates as evaluation metrics (Fig. 5.4). On average, each post contained around 140 words and, from it, about 4 affective valence indicators and 60 sentic vectors were extracted. According to this information, mood-labels were assigned to each post and compared with the corresponding LiveJournal mood tags, obtaining very good accuracy for each of the 10 selected moods (Table 5.2). Among these, ‘happy’ and ‘sad’ posts were identified with particularly high precision (89.2% and 81.8%, respectively) and decorous recall rates (76.5% and 68.4%). The F-measure values obtained, hence, were significantly good (82.3% and 74.5%, respectively), especially if compared to the corresponding F-measure rates of a standard keyword spotting system based on a set of 500 affect words (65.7% and 58.6%).
 
 Sentic Album
-------------
+************
 
 Efficient access to online personal pictures requires the ability to properly annotate, organise, and retrieve the information associated with them. While the technology to search personal documents has been available for some time, the technology to manage personal images is much more challenging. This is mainly due to the fact that, even if images can be roughly interpreted automatically, many salient features exist only in the user’s mind. The only way for a system to accordingly index personal images, hence, is to try to capture and process such features.
 
@@ -1110,7 +1110,7 @@ ular, were found to be the most used by participants for search and retrieval ta
 Picasa, Sentic Album is a very good photo management tool (especially for its novel semantic faceted search and PQOP functionalities) and they hope they could still be using it because, in the end, what really counts when browsing personal pictures is to find good matches in the shortest amount of time.
 
 Development of HCI Systems
---------------------------
+**************************
 
 
 Human computer intelligent interaction is an emerging field aimed at providing natural ways for humans to use computers as aids. It is argued that, for a computer to be able to interact with humans, it needs to have the communication skills of humans. One of these skills is the affective aspect of communication, which is recognised to be a crucial part of human intelligence and has been argued to be more fundamental in human behaviour and success in social life than intellect [292, 221]. Emotions influence cognition and, therefore, intelligence, especially when it involves social decision-making and interaction.
@@ -1118,21 +1118,21 @@ Human computer intelligent interaction is an emerging field aimed at providing n
 The latest scientific findings indicate that emotions play an essential role indecision-making, perception, learning, and more. Most of the past research on affect sensing has considered each sense such as vision, hearing, and touch in isolation. However, natural human-human interaction is multi-modal: we communicate through speech and use body language (posture, facial expressions, gaze) to express emotion, mood, attitude, and attention. To this end, a novel fusion methodology is proposed, which is able to fuse any number of unimodal categorical modules, with very different time-scales, output labels, and recognition success rates, in a simple and scalable way. In particular, such a methodology is exploited to fuse the outputs of the opinion mining engine with the ones of a facial expression analyser for designing an embodied conversational agent with affective common-sense (section 5.2.1). This section, moreover, illustrates how the engine can be exploited for the development of HCI applications in fields such as instant messaging (IM) (section 5.2.2) and multimedia management (section 5.2.3).
 
 Sentic Chat
------------
+***********
 
 
 Online communication is an extremely popular form of social interaction. Unlike face-to-face communication, online IM tools are extremely limited in conveying emotions or the context associated with a communication. Users have adapted to this environment by inventing their own vocabulary, e.g., by putting actions within asterisks (“I just came from a shower *shivering*”), or by using emoticons, by addressing a particular user in a group communication (“@Ravi”). Such evolving workarounds clearly indicate a latent need for a richer, more immersive user experience in social communication. This problem is addressed by exploiting the semantics and sentics associated with the on-going communication to develop an adaptive user interface (UI) capable to change according to content and context of the online chat. Popular approaches to enhance and personalise computer-mediated communication (CMC) include emoticons, skins, avatars, and customisable status messages. However, all these approaches require explicit user configuration or action: the
 user needs to select the emoticon, status-message, or avatar that best represents him/her. Furthermore, most of these enhancements are static - once selected by the user, they do not adapt themselves automatically. There is some related work on automatically updating the status of the user by analysing various sensor data available on mobile devices [196].
 
 Sentic Corner
--------------
+*************
 
 In a world in which web users are continuously blasted by ads and often compelled to deal with user-unfriendly interfaces, we sometimes feel like we want to evade from the sensory overload of standard web pages and take refuge in a safe web corner, in which contents and design are in harmony with our current frame of mind. Sentic Corner [47] is an IUI that dynamically collects audio, video, images, and text related to the user’s current feelings and activities as an interconnected knowledge base, which is browsable through a multi-faceted classification website. In the new realm of Web 2.0 applications, the analysis of emotions has undergone a large number of interpretations and visualisations, e.g., We Feel Fine 15 , MoodView 16 , MoodStats 17 , and MoodStream 18 , which have often led to the development of emotion-sensitive systems and applications.
 
 Nonetheless, today web users still have to almost continuously deal with sensory overloaded web pages, pop-up windows, annoying ads, user-unfriendly interfaces, etc. Moreover, even for websites uncontaminated by web spam, the affective content of the page is often totally unsynchronised with the user’s emotional state. Web pages containing multimedia information inevitably carry more than just informative content. Behind every multimedia content, in fact, there is always an emotion.
 
 Development of E-Health Systems
--------------------------------
+*******************************
 
 In health-care, it has long been recognised that, although the health professional is the expert in diagnosing, offering help, and giving support in managing a clinical condition, the patient is the expert in living with that condition. Health-care providers need to be validated by somebody outside the medical departments but, at the same time, inside the health-care system. The best candidate for this is not the doctor, the nurse, or the therapist, but the real end-user of health-care – none other than the patient him/herself.
 
@@ -1145,7 +1145,7 @@ Patient 2.0 is central to understanding the effectiveness and efficiency of serv
 easy and rewarding for patients and carers to share their personal experiences with the health-care system and to research conditions and treatments.
 
 Crowd Validation
-----------------
+****************
 
 As Web 2.0 dramatically reduced the cost of communication, today it is easy and rewarding for patients and carers to share their personal experiences with the health care system. This social information, however, is often stored in natural language text and, hence, intrinsically unstructured, which makes comparison with the structured information supplied by health-care providers very difficult. To bridge the gap between these data, which though different at structure-level are similar at conceptlevel, a patient opinion mining tool has been proposed to provide the end-users of the health system with a common framework to compare, validate, and select their health-care providers.
 
